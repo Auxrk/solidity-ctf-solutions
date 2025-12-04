@@ -3,3 +3,11 @@
 How contract addresses are generated using:
 
 keccak256(rlp.encode([deployer, nonce]))
+
+Includes steps to:
+
+Predict the next contract address
+
+Force a challenge to send tokens to your precomputed address
+
+Deploy a contract with a specific nonce to trigger hidden logic
