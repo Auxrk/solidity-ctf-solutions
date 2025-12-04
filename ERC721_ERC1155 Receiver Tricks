@@ -1,3 +1,5 @@
 Notes on:
 
 Faking onERC721Received to steal ownership
+
+Triggering challenge callbacks
