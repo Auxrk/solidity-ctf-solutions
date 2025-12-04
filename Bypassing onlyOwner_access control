@@ -4,3 +4,4 @@ Constructor confusion
 Storage collision
 Using tx.origin vulnerabilities
 Uninitialized contracts
+Selfdestruct + redeployment patterns
