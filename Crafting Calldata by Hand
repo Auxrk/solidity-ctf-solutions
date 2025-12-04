@@ -5,3 +5,5 @@ Encoding function selectors
 ABI packing
 
 Manual encoding of uint256, address, bytes
+
+Understanding challenge-specific calldata layouts
