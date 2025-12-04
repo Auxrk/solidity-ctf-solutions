@@ -1,11 +1,14 @@
 A dedicated snippet:
 
+```solidity
 contract ForceSend {
     constructor() payable {}
     function boom(address target) external {
         selfdestruct(payable(target));
     }
 }
+```
+
 
 Explains when forced ETH breaks assumptions in challenges:
 
