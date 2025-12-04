@@ -3,3 +3,5 @@ A full guide on:
 Encoding function selectors
 
 ABI packing
+
+Manual encoding of uint256, address, bytes
