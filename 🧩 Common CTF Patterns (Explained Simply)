@@ -1,3 +1,5 @@
 1. Nonce-based Address Prediction
 
 How contract addresses are generated using:
+
+keccak256(rlp.encode([deployer, nonce]))
