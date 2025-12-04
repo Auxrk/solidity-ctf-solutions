@@ -1,1 +1,34 @@
 You can add new challenges using this exact structure:
+
+# Challenge X – Name
+
+## Goal
+Short summary of what must be achieved.
+
+## Key Vulnerability
+Explain the mistake in the challenge (missing check, wrong call, bad modifier, etc).
+
+## Exploit Strategy
+Step-by-step:
+
+1. Identify vulnerable function.
+2. Trigger logic using calldata / replay / crafted address.
+3. Deploy exploit contract (if required).
+4. Call final function to extract the flag.
+
+## Exploit Contract
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract Exploit {
+    address target;
+
+    constructor(address _target) {
+        target = _target;
+    }
+
+    function pwn() external {
+        // exploit logic
+    }
+}
