@@ -12,3 +12,5 @@ Explains when forced ETH breaks assumptions in challenges:
 balance checks
 
 require(msg.value == 0)
+
+invariant violations
