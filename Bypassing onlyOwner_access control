@@ -5,3 +5,4 @@ Storage collision
 Using tx.origin vulnerabilities
 Uninitialized contracts
 Selfdestruct + redeployment patterns
+Each technique includes a minimal reproducible exploit snippet.
