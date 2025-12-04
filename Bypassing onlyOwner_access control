@@ -2,3 +2,4 @@ Ways to bypass weak access modifiers:
 Misconfigured delegatecall
 Constructor confusion
 Storage collision
+Using tx.origin vulnerabilities
