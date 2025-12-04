@@ -8,3 +8,5 @@ contract ForceSend {
 }
 
 Explains when forced ETH breaks assumptions in challenges:
+
+balance checks
