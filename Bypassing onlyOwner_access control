@@ -3,3 +3,4 @@ Misconfigured delegatecall
 Constructor confusion
 Storage collision
 Using tx.origin vulnerabilities
+Uninitialized contracts
