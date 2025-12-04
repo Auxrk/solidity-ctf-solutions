@@ -1,2 +1,8 @@
-
 A dedicated snippet:
+
+contract ForceSend {
+    constructor() payable {}
+    function boom(address target) external {
+        selfdestruct(payable(target));
+    }
+}
