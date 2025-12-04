@@ -5,3 +5,5 @@ Faking onERC721Received to steal ownership
 Triggering challenge callbacks
 
 Mint-on-Receive puzzles
+
+Why some flags require custom calldata or manual signing
